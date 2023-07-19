@@ -17,11 +17,19 @@ function App() {
       <hr/> 
       <Contador1/>
       <hr/>
+      <h2> cuarto componente </h2>
+      <hr/>
       <Contador2/>
       <hr/>
       <Contador3/>
       <hr/>
+      <hr/>
+      <h2> Quinto componente </h2>
+      <hr/>
       <C05operador/>
+      <hr/>
+      <hr/>
+      <h1> Sexto componente </h1>
       <hr/>
       <C06matriz/>
   
