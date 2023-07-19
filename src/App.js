@@ -1,22 +1,20 @@
+import logo from './logo.svg';
 import './App.css';
-import C01componente from "./componentes/C01componente";
-import C02contador from "./componentes/C02contador";
-import C03doblecontador from "./componentes/C03doblecontador";
-
+import { C01componente } from './components/C01componente';
+import Contador1 from './components/C02componente';
+import Contador2 from './components/C03componente';
+import Contador3 from './components/C04componente';
 
 function App() {
   return (
     <div>
-      <C01componente/>
-
+      <C01componente/>  
+      <hr/>   
+      <Contador1/>
       <hr/>
-      <C02contador/>
-
+      <Contador2/>
       <hr/>
-      <C03doblecontador/>
-
-
-      
+      <Contador3/>
     </div>
   );
 }

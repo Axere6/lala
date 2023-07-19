@@ -18,3 +18,5 @@ const C03doblecontador = () => {
     </Fragment>
   )
 }
+
+export default C03doblecontador
